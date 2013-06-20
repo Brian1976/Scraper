@@ -19,5 +19,3 @@ data = Nokogiri::HTML(open(url))
 #end
 
 concerts = data.css('.list-view-details')
-#concerts[2].at_css('.price-range').text
-#concerts[1].at_css('.price-range').text
